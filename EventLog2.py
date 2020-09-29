@@ -13,7 +13,7 @@ def x():
     c = 0
     eventList = {}
 
-    e = open('events.csv')   
+    e = open('events.csv')  #changeable 
     event = csv.reader(e)
     name = []
     nLogs = 0
